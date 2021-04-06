@@ -8,8 +8,8 @@ Easy peasy lemon squeezy!
 [CLICK HERE TO DOWNLOAD](https://github.com/marlonelima/over-the-air-demo/releases/download/over-the-air-demo/over-the-air-marlonelima.apk)
 <br><br>
 
-Execute `yarn add expo-updates`
-<br>
+ `yarn add expo-updates`
+<br><br>
 Then `import * as Updates from 'expo-updates';`
 
 
