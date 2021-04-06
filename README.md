@@ -10,10 +10,10 @@ Easy peasy lemon squeezy!
 
 `yarn add expo-updates`
 <br>
-Then<br>
+Then
 `import * as Updates from 'expo-updates';`
 
-<br>
+
 ```javascript
 try {
   const update = await Updates.checkForUpdateAsync();
