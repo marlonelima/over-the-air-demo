@@ -14,13 +14,12 @@ export const MyApp = () => {
           `A new version is available. Do you want to update now?`,
           [
             {
-              text: `Cancel`,
+              text: `NOT NOW`,
               onPress: () => {
                 return;
               },
-              style: `cancel`,
             },
-            { text: `OK`, onPress: () => updateApplication() },
+            { text: `YES`, onPress: () => updateApplication() },
           ]
         );
       else Alert.alert(`No updates`, `The app is up-to-date!`);
