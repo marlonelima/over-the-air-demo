@@ -14,7 +14,7 @@ Then `import * as Updates from 'expo-updates'`
 
 <br>
 
-At the first version, you should run  `expo publish`  and then  `expo build` . Everytime that you change javascript files, you may run  `expo publish`  again and the new version will be available in the app. If has SDK changes, you should run  `expo publish`  again and then  `expo build` .
+At the first version, you should run `expo publish` and then `expo build`. Everytime that you change javascript files, you may run `expo publish` again and the new version will be available in app. If has SDK changes, you should generate a new build by running `expo build`.
 
 Updates are managed by Expo server.
 <br><br>
