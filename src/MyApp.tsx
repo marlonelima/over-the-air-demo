@@ -33,8 +33,12 @@ export const MyApp = () => {
   };
 
   const updateApplication = async () => {
-    await Updates.fetchUpdateAsync();
-    await Updates.reloadAsync();
+    try {
+      await Updates.fetchUpdateAsync();
+      await Updates.reloadAsync();
+    } catch (e) {
+      Alert.alert(`Error`, `An error occurred! Cannot update.`);
+    }
   };
 
   return (
