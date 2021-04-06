@@ -1,7 +1,7 @@
 # over-the-air-update
 An application with over-the-air (OTA) updates using Expo.
 
-Async over-the-air update demonstration using Expo without using apps stores.
+Async over-the-air update demonstration using Expo without app store.
 
 Easy peasy lemon squeezy!
 
