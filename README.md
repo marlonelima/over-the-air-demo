@@ -10,9 +10,11 @@ Easy peasy lemon squeezy!
 
 `yarn add expo-updates`
 
-import * as Updates from 'expo-updates';
+Then
+`import * as Updates from 'expo-updates';`
 
-``javascript
+
+```javascript
 try {
   const update = await Updates.checkForUpdateAsync();
   if (update.isAvailable) {
@@ -23,4 +25,4 @@ try {
 } catch (e) {
   // handle or log error
 }
-``
+````
