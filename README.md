@@ -5,4 +5,4 @@ Demonstration of over-the-air updates using Expo without app store updates.
 
 Easy peasy lemon squeezy!
 
-[CLICK HERE TO DOWNLOAD]()
+[CLICK HERE TO DOWNLOAD](https://github.com/marlonelima/over-the-air-demo/releases/download/over-the-air-demo/over-the-air-marlonelima.apk)
