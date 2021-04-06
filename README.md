@@ -13,10 +13,10 @@ Easy peasy lemon squeezy!
 Then `import * as Updates from 'expo-updates';`
 
 <br>
-At the first version, you should run `expo publish` and then `expo build`. Everytime that you change the javascript files, you may run `expo publish` again. If has SDK changes, you should run `expo publish` again and then `expo build`.
+At the first version, you should run  `expo publish`  and then  `expo build` . Everytime that you change the javascript files, you may run  `expo publish`  again. If has SDK changes, you should run  `expo publish`  again and then  `expo build` .
 
 Updates are managed by Expo server.
-
+<br><br>
 
 ```javascript
 try {
